@@ -28,6 +28,14 @@ npm run test
       at Object.<anonymous> (src/App.spec.tsx:9:53)
 ```
 
+## Inspect the output
+
+```shell
+npm run build
+```
+
+Then view the generated sources under `./dist`
+
 ## Keywords
 
 Cannot use 'import.meta' outside a module, import, meta, vite, jest, swc, @swc, @swc/jest
